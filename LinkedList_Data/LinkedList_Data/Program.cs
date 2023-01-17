@@ -16,6 +16,13 @@ namespace LinkedList_Data
             list.Addnote(70);
             list.Display();
 
+
+            //list.Addreverse(70);
+            //list.Addreverse(30);
+            //list.Addreverse(56);
+            //list.Display();
+
+
         }
     }
 }
