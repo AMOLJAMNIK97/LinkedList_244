@@ -15,7 +15,7 @@ namespace LinkedList_Data
             list.Addnote(30);
             list.Addnote(70);
             list.Display();
-            list.Delete();
+            list.DeleteLast();
 
 
 

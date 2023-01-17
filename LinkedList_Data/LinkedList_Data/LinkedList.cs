@@ -98,5 +98,17 @@ namespace LinkedList_Data
                 node = null;
             }
         }
+        public void DeleteLast()
+        {
+            Node node = head;
+            Node lastnode = node.Next;
+            if (lastnode != null)
+                if (head.Next != null)
+                {
+                    node = node.Next;
+                    node.Next = null;
+                    lastnode = null;
+                }
+        }
     }
 }
