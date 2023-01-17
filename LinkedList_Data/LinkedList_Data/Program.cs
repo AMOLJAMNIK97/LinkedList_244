@@ -14,7 +14,9 @@ namespace LinkedList_Data
             list.Addnote(56);
             list.Addnote(30);
             list.Addnote(70);
-            //list.Display();
+            list.Display();
+            list.Delete();
+
 
 
             //list.Addreverse(70);
@@ -22,11 +24,11 @@ namespace LinkedList_Data
             //list.Addreverse(56);
             //list.Display();
 
-            list.Insert(2, 30);
-            list.Insert(2, 56);
+            //list.Insert(2, 30);
             //list.Insert(2, 56);
-            
-            
+            ////list.Insert(2, 56);
+
+
             list.Display();
 
 
